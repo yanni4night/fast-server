@@ -1,0 +1,36 @@
+{
+  "name": "fast-server",
+  "version": "1.0.0",
+  "description": "Start a http server fast based on koa2",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanni4night/fast-server.git"
+  },
+  "keywords": [
+    "koa",
+    "http-server"
+  ],
+  "engines": {
+    "node": "> 7.6.0"
+  },
+  "author": "yanni4night@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanni4night/fast-server/issues"
+  },
+  "homepage": "https://github.com/yanni4night/fast-server#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-better-body": "^3.0.4",
+    "koa-better-router": "^2.1.1",
+    "koa-compress": "^2.0.0",
+    "koa-handle-error": "0.0.5",
+    "koa-logger": "^3.0.1",
+    "koa-toobusy": "^1.0.1"
+  }
+}
